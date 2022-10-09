@@ -14,7 +14,7 @@ body {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -74,7 +74,6 @@ hr {
 }
 
 .navigation .link-active {
-    font-weight: bolder;
     background-color: white;
     color: black;
 }
@@ -115,15 +114,17 @@ hr {
 }
 
 .footer {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
+    border-radius: 20px;
 }
 
 .footer-header {
     color: bisque;
     font-size: large;
     font-weight: bold;
+    padding-bottom: 1rem;
 }
 
 .footer .link {
